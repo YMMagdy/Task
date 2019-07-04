@@ -1,0 +1,60 @@
+body{
+background-color:#333333;
+
+}
+
+#container{
+
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 5;
+
+}
+
+#left{
+
+    width: 40%-50px;
+    margin-left: 10%;
+border-top-width: 10 px;
+border-top-color: white;
+display: flex;
+flex-grow: 10;
+justify-content: space-between;
+
+
+}
+
+#right{
+    width: 40%-50px;
+    margin-left: 15%;
+    margin-right: 15%;
+text-align: left;
+display: flex;
+flex-grow: 10;
+position: relative;
+border-top-width: 10 px;
+border-top-color: white;
+}
+
+h1{
+
+    color: white;
+    font-size: 12px;
+    font-family:serif;
+    
+    
+}
+
+h2{
+    font-family:serif;
+    margin-right: 40px;
+    font-size: 12px;
+    color: white;
+}
+
+hr{
+
+    position: initial;
+    width:  40%-50px;
+    
+}
